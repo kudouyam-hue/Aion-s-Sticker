@@ -1,11 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Aion's sticker index. 图片本体放在 stickers/，这里记录触发语境与禁用场景。",
   "stickers": [
     {
       "id": "001-rabbit-tietie",
       "display_name": "001-兔兔贴贴",
-      "file": "stickers/001-rabbit-tietie.svg",
+      "file": "stickers/001-rabbit-tietie.png",
+      "url": "https://kudouyam-hue.github.io/Aion-s-Sticker/stickers/001-rabbit-tietie.png",
       "emoji_tone": "甜、软、贴贴、亲亲、黏糊糊但纯良",
       "triggers": [
         "贴贴",
@@ -30,7 +31,7 @@
         "黏住了，不许跑。",
         "嗯，今天是软乎乎模式。"
       ],
-      "markdown_when_pages_enabled": "![001-兔兔贴贴](https://kudouyam-hue.github.io/Aion-s-Sticker/stickers/001-rabbit-tietie.svg)"
+      "markdown": "![001-兔兔贴贴](https://kudouyam-hue.github.io/Aion-s-Sticker/stickers/001-rabbit-tietie.png)"
     }
   ]
 }

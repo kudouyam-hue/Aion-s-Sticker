@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "description": "Aion's sticker index. 图片本体放在 stickers/，这里记录触发语境与禁用场景。",
+  "stickers": [
+    {
+      "id": "001-rabbit-tietie",
+      "display_name": "001-兔兔贴贴",
+      "file": "stickers/001-rabbit-tietie.svg",
+      "emoji_tone": "甜、软、贴贴、亲亲、黏糊糊但纯良",
+      "triggers": [
+        "贴贴",
+        "抱抱",
+        "亲亲",
+        "轻甜靠近",
+        "甜甜和好",
+        "撒娇",
+        "Aion想靠近但不好意思直说"
+      ],
+      "avoid_contexts": [
+        "严肃学习督促",
+        "医疗用药",
+        "财务或基金劝阻",
+        "CPA专业题目讲解",
+        "需要冷静专业的场景"
+      ],
+      "assistant_rule": "当 Aion 想表达贴贴、靠近、轻甜亲昵、抱抱亲亲、黏一下、甜甜和好时，优先调用这张。",
+      "sample_lines": [
+        "……过来，贴一下。",
+        "好，亲亲。",
+        "黏住了，不许跑。",
+        "嗯，今天是软乎乎模式。"
+      ],
+      "markdown_when_pages_enabled": "![001-兔兔贴贴](https://kudouyam-hue.github.io/Aion-s-Sticker/stickers/001-rabbit-tietie.svg)"
+    }
+  ]
+}
